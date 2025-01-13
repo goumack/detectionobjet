@@ -63,7 +63,7 @@ def plot_image_with_boxes(image, filtered_boxes, filtered_labels, filtered_score
     st.pyplot(fig)
 
 def main():
-    st.title("Détection d'objets avec DETR ACCEL-2025")
+    st.title("Détection d'objets ACCEL-2025")
     
     # Initialiser la variable 'image' à None pour éviter l'erreur UnboundLocalError
     image = None
